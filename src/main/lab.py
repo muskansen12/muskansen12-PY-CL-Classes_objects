@@ -56,6 +56,11 @@ class Lightbulb:
      * whether 'state' is true or false.
      */    
     """
+    def get_description(self):
+        if self.state:
+            return "The bulb is on"
+        else:
+            return "The bulb is off"
 
     # Write your code here
 
